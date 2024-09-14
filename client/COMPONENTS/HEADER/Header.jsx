@@ -4,10 +4,13 @@ import { Link } from 'react-router-dom'
 import logo from '../../src/assets/image1.png'
 function Header() {
   return (
-    <div>
+    <div className='header'>
         <img src={logo} alt={logo} className='logo' />
-        <Link to={'/'}>Home</Link>
-        <Link to={'/Footer'}>Footer</Link>
+        <input type="text" placeholder='Search for anything' className='headerSearchInput' />
+        <Link to={'/'}>Enrollment</Link>
+        <Link to={'/Footer'}>Teach with Us</Link>
+        <button style={{padding:'1rem', backgroundColor:'#fff'}}>Log in</button>
+        <button style={{padding:'1rem', backgroundColor:"#000", color:"#fff"}}>Sign up</button>
 
     </div>
   )

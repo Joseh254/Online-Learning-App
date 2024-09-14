@@ -2,3 +2,15 @@
     border-radius: 100%;
     width: 8rem;
 }
+.headerSearchInput{
+    width: 50rem;
+    padding: 1.5rem;
+    border-radius: 50px;
+}
+.header{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
