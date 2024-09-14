@@ -18,7 +18,7 @@ function Home() {
       <Slide>
         {slideImages.map((image, index) => (
           <div className="each-slide" key={index}>
-            <div style={{ 'backgroundImage': `url(${image})`, height: '95vh',maxWidth:'100%' }}>
+            <div style={{ 'backgroundImage': `url(${image})`, height: '95vh',Width:'100%' }}>
               {/* Optional: Add a caption or any other content inside the slide */}
             </div>
           </div>
