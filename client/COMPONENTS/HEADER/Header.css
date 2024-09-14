@@ -1,3 +1,13 @@
+
+.header{
+    display: flex;
+    padding: 1rem;
+    gap: 8rem;
+    width: 100%;
+    background-color: hsla(230, 8%, 85%, 0.671);
+    align-items: center;
+    position: fixed;
+}
 .logo{
     border-radius: 100%;
     width: 8rem;
@@ -6,11 +16,4 @@
     width: 50rem;
     padding: 1.5rem;
     border-radius: 50px;
-}
-.header{
-    display: flex;
-    margin: 1rem;
-    padding: 1rem;
-    justify-content: space-between;
-    align-items: center;
 }

@@ -13,13 +13,14 @@ function Home() {
         image3
           ];
   return (
-    <div className="App">
+    <div className="home">
     <div className="slide-container">
       <Slide>
         {slideImages.map((image, index) => (
           <div className="each-slide" key={index}>
-            <div style={{ 'backgroundImage': `url(${image})`, height: '95vh',Width:'100%' }}>
+            <div style={{ 'backgroundImage': `url(${image})`, height: '95vh',Width:'100%',marginTop:'8rem' }}>
               {/* Optional: Add a caption or any other content inside the slide */}
+              <h1>Welcome</h1>
             </div>
           </div>
         ))}
