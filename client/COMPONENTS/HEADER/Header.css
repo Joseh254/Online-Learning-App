@@ -2,8 +2,9 @@
 .header{
     display: flex;
     padding: 1rem;
-    gap: 8rem;
+    gap: 5rem;
     width: 100%;
+    justify-content: center;
     background-color: hsla(230, 8%, 85%, 0.671);
     align-items: center;
     position: fixed;

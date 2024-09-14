@@ -7,8 +7,8 @@ function Header() {
     <div className='header'>
         <img src={logo} alt={logo} className='logo' />
         <input type="text" placeholder='Search for anything' className='headerSearchInput' />
-        <Link to={'/'}>Enrollment</Link>
-        <Link to={'/Footer'}>Teach with Us</Link>
+        <Link to={'/'} style={{textDecoration:'none',color:'#000',fontSize:'1.9rem'}}>Enrollment</Link>
+        <Link to={'/Footer'} style={{textDecoration:'none',color:'#000',fontSize:'1.9rem'}}>Teach with Us</Link>
         <button style={{padding:'1rem', backgroundColor:'#fff'}}>Log in</button>
         <button style={{padding:'1rem', backgroundColor:"#000", color:"#fff"}}>Sign up</button>
 
