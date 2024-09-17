@@ -1,2 +1,10 @@
-.slide-container {
+.herocard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    margin-left: 10rem;
+    background-color: aliceblue;
+    padding: 2rem;
 }

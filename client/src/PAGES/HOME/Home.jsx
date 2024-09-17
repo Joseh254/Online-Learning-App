@@ -23,7 +23,10 @@ function Home() {
                 }}
               >
                 {/* Optional: Add a caption or any other content inside the slide */}
-                <h1>Welcome</h1>
+                <div className="herocard">
+                  <h2>GET A COURSE AND BUILD YOUR CAREER</h2>
+                  <h4>Expand your horizons with learning that’s worldwide from $12.99.</h4>
+                </div>
               </div>
             </div>
           ))}
