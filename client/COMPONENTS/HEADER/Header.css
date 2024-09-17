@@ -1,19 +1,57 @@
-
-.header{
+.header {
     display: flex;
-    padding: 1rem;
-    gap: 5rem;
-    width: 100%;
-    justify-content: center;
-    background-color: hsla(230, 8%, 85%, 0.671);
     align-items: center;
-}
-.logo{
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 2rem; /* Adjust gap between items */
+    background-color: hsla(230, 8%, 85%, 0.671);
+  }
+  
+  .logo {
     border-radius: 100%;
     width: 8rem;
-}
-.headerSearchInput{
-    width: 50rem;
-    padding: 1.5rem;
+  }
+  
+  .searchWrapper {
+    position: relative;
+    flex-grow: 1; /* Allows the search input to expand */
+  }
+  
+  .searchIcon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .headerSearchInput {
+    width: 100%;
+    padding: 1.5rem 1.5rem 1.5rem 3rem; /* Adds padding to make space for the icon */
     border-radius: 50px;
-}
+    border: 1px solid #ccc; /* Add a border for better visibility */
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.9rem;
+    margin: 0 1rem; /* Spacing between navigation links */
+  }
+  
+  .loginButton, .signupButton {
+    padding: 1rem;
+    font-size: 1rem; /* Adjust font size if needed */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .loginButton {
+    background-color: #fff;
+  }
+  
+  .signupButton {
+    background-color: #000;
+    color: #fff;
+  }
+  

@@ -25,3 +25,6 @@ body {
   p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
+::selection{
+  background-color: hsla(227, 5%, 67%, 0.671);
+}
