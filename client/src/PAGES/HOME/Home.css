@@ -8,3 +8,6 @@
     background-color: aliceblue;
     padding: 2rem;
 }
+img{
+background-repeat: no-repeat;
+}
