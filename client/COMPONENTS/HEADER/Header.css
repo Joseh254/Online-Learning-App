@@ -7,7 +7,6 @@
     justify-content: center;
     background-color: hsla(230, 8%, 85%, 0.671);
     align-items: center;
-    position: fixed;
 }
 .logo{
     border-radius: 100%;
