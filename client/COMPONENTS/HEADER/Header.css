@@ -1,20 +1,20 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem;
-    gap: 2rem; /* Adjust gap between items */
+    gap: 2rem;
     background-color: hsla(230, 8%, 85%, 0.671);
   }
   
   .logo {
     border-radius: 100%;
-    width: 8rem;
+    width: 8rem;align-items: center;
   }
   
   .searchWrapper {
     position: relative;
-    flex-grow: 1; /* Allows the search input to expand */
+    flex-grow: 1;
   }
   
   .searchIcon {
@@ -26,32 +26,24 @@
   }
   
   .headerSearchInput {
-    width: 100%;
-    padding: 1.5rem 1.5rem 1.5rem 3rem; /* Adds padding to make space for the icon */
+    width: 90%;
+    padding: 1.5rem 1.5rem 1.5rem 3rem;
     border-radius: 50px;
-    border: 1px solid #ccc; /* Add a border for better visibility */
+    border: 1px solid #ccc;
   }
-  
   .navLink {
     text-decoration: none;
     color: #000;
     font-size: 1.9rem;
-    margin: 0 1rem; /* Spacing between navigation links */
+    margin: 0 1rem;
   }
-  
-  .loginButton, .signupButton {
-    padding: 1rem;
-    font-size: 1rem; /* Adjust font size if needed */
-    border: none;
-    cursor: pointer;
-  }
-  
   .loginButton {
     background-color: #fff;
+    padding: 1rem;
   }
-  
   .signupButton {
     background-color: #000;
     color: #fff;
+    padding: 1rem;
   }
   

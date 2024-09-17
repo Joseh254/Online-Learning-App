@@ -18,6 +18,7 @@ function Header() {
 
   return (
     <div className='header'>
+      <Link to={'/'} style={{fontSize:'4rem', color:'#000'}}><FaHome className='homeIcon'/></Link>
       <img src={logo} alt='Logo' className='logo' />
       <div className='searchWrapper'>
         <FaSearch className='searchIcon' />
