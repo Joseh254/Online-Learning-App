@@ -1,9 +1,7 @@
-import React from 'react'
-import './Enrollment.css'
+import React from "react";
+import "./Enrollment.css";
 function Enrollment() {
-  return (
-    <div>Enrollment</div>
-  )
+  return <div>Enrollment</div>;
 }
 
-export default Enrollment
+export default Enrollment;

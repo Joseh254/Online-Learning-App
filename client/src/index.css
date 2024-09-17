@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 html {
@@ -15,16 +15,22 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   max-width: 112.5em;
-  }
+}
 
 html,
 body {
   overflow-x: hidden;
 }
 
-  p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
-::selection{
+::selection {
   background-color: hsla(227, 5%, 67%, 0.671);
 }

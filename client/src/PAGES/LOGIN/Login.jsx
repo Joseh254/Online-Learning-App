@@ -1,9 +1,7 @@
-import React from 'react'
-import './Login.css'
+import React from "react";
+import "./Login.css";
 function Login() {
-  return (
-    <div>Login</div>
-  )
+  return <div>Login</div>;
 }
 
-export default Login
+export default Login;

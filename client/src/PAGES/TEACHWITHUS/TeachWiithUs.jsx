@@ -1,9 +1,7 @@
-import React from 'react'
-import './TeachWiithUs.css'
+import React from "react";
+import "./TeachWiithUs.css";
 function TeachWiithUs() {
-  return (
-    <div>TeachWiithUs</div>
-  )
+  return <div>TeachWiithUs</div>;
 }
 
-export default TeachWiithUs
+export default TeachWiithUs;
