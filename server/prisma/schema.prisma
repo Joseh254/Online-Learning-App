@@ -18,7 +18,7 @@ model users{
   second_name String
   last_name String
   email String @unique
-  phone String
+  phone String @unique
   password String
   role String? @default("user")
 }
